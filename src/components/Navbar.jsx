@@ -2,7 +2,10 @@ import React from 'react';
 import './Navbar.css'; // Import CSS file for styling
 import profile from './profile.jpg';
 
+
 function Navbar() {
+
+
   return (
     <nav className="navbar">
       <div className="navbar-brand">
@@ -23,8 +26,15 @@ function Navbar() {
         <input type="text" placeholder="Search..." />
         <button type="submit">Search</button>
       </div>
+      
       <div className="account">
-        <a href="/account">Account</a>
+        <button >
+          Create Account
+        </button>
+        <button>
+          <a href="/account">Account</a>
+        </button>
+        
       </div>
     </nav>
   );
